@@ -1,8 +1,8 @@
 package task
 
 import (
-	"../common"
-	"../log"
+	"optimusprime/common"
+	"optimusprime/log"
 	"sync"
 	"sync/atomic"
 	"time"

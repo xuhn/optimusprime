@@ -1,7 +1,7 @@
 package task
 
 import (
-	"../common"
+	"optimusprime/common"
 	"errors"
 	"sync"
 	"sync/atomic"

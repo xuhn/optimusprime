@@ -3,7 +3,6 @@ package controller
 import (
 	"optimusprime/common"
 	"optimusprime/log"
-	_ "optimusprime/utils/gocolorize"
 	"flag"
 	"fmt"
 )

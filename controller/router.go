@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	"optimusprime/utils/pathtree"
+	"github.com/revel/pathtree"
 )
 
 const (

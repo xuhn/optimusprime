@@ -1,9 +1,10 @@
 package net
 
 import (
-	"optimusprime/net/ratelimiter"
 	"encoding/binary"
 	"io"
+
+	"github.com/xuhn/optimusprime/net/ratelimiter"
 )
 
 type reader struct {

@@ -5,7 +5,6 @@
 package controller
 
 import (
-	"optimusprime/log"
 	"errors"
 	"fmt"
 	"io"
@@ -16,6 +15,8 @@ import (
 	_ "runtime"
 	"strings"
 	"time"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 // Controller Revel's controller structure that gets embedded in user defined

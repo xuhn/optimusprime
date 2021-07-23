@@ -5,9 +5,6 @@
 package controller
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
-	"optimusprime/net/websocket"
 	"io"
 	"net"
 	"net/http"
@@ -15,6 +12,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
+	"github.com/xuhn/optimusprime/net/websocket"
 )
 
 // Revel's variables server, router, etc

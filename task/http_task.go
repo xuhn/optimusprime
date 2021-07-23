@@ -1,12 +1,13 @@
 package task
 
 import (
-	"optimusprime/common"
 	"errors"
 	"net/http"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/xuhn/optimusprime/common"
 )
 
 var (

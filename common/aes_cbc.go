@@ -1,12 +1,13 @@
 package common
 
 import (
-	"optimusprime/log"
 	"bytes"
 	"crypto/aes"
 	"crypto/cipher"
 	"encoding/base64"
 	"encoding/json"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 func AESDecrypt(data, key, iv string) ([]byte, error) {

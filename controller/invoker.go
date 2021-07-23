@@ -8,7 +8,7 @@ import (
 	"io"
 	"reflect"
 
-	"optimusprime/net/websocket"
+	"github.com/xuhn/optimusprime/net/websocket"
 )
 
 var (

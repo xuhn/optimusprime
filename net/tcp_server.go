@@ -1,11 +1,12 @@
 package net
 
 import (
-	"optimusprime/log"
 	"fmt"
 	"net"
 	"sync"
 	"sync/atomic"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 type tcpServer struct {

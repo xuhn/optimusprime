@@ -1,10 +1,11 @@
 package controller
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
 	"flag"
 	"fmt"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 var (

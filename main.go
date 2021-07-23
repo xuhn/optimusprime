@@ -1,14 +1,15 @@
 package main
 
 import (
-	"optimusprime/common"
-	"optimusprime/controller"
-	"optimusprime/log"
-	"optimusprime/net"
 	"fmt"
 	_ "net/http/pprof"
 	"os"
-	_"reflect"
+	_ "reflect"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/controller"
+	"github.com/xuhn/optimusprime/log"
+	"github.com/xuhn/optimusprime/net"
 )
 
 func listenAndServeTCP() {

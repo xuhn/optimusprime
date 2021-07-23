@@ -5,7 +5,6 @@
 package controller
 
 import (
-	"optimusprime/log"
 	"encoding/json"
 	"errors"
 	"io/ioutil"
@@ -13,6 +12,8 @@ import (
 	"net/url"
 	"os"
 	"reflect"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 // Params provides a unified view of the request params.

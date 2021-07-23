@@ -5,8 +5,6 @@
 package controller
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -17,6 +15,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 // A Binder translates between string parameters and Go data structures.

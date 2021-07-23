@@ -5,8 +5,9 @@
 package controller
 
 import (
-	"optimusprime/log"
 	"runtime/debug"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 // PanicFilter wraps the action invocation in a protective defer blanket that

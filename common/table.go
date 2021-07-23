@@ -1,9 +1,10 @@
 package common
 
 import (
-	"optimusprime/log"
 	"fmt"
 	"strings"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 type Table struct {

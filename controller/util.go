@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
-	"optimusprime/common"
-	"optimusprime/log"
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 const (

@@ -18,9 +18,9 @@ import (
 	_ "strings"
 	"time"
 
-	"optimusprime/common"
-	"optimusprime/log"
-	"optimusprime/net/websocket"
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
+	"github.com/xuhn/optimusprime/net/websocket"
 )
 
 type Result interface {

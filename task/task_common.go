@@ -1,14 +1,15 @@
 package task
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
 	"fmt"
 	"reflect"
 	"runtime"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 type taskState int

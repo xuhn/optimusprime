@@ -12,9 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"optimusprime/log"
-	"optimusprime/net/websocket"
 	"path/filepath"
+
+	"github.com/xuhn/optimusprime/log"
+	"github.com/xuhn/optimusprime/net/websocket"
 )
 
 // Request Revel's HTTP request object structure

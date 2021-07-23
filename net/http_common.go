@@ -1,8 +1,9 @@
 package net
 
 import (
-	"optimusprime/net/websocket"
 	"net/http"
+
+	"github.com/xuhn/optimusprime/net/websocket"
 )
 
 var (

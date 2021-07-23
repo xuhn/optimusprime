@@ -1,11 +1,12 @@
 package task
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 var (

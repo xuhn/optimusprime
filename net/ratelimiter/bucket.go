@@ -1,9 +1,10 @@
 package ratelimiter
 
 import (
-	"optimusprime/log"
 	"sync"
 	"time"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 const (

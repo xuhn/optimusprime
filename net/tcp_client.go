@@ -1,11 +1,12 @@
 package net
 
 import (
-	"optimusprime/log"
 	"net"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 const (

@@ -1,12 +1,13 @@
 package mysql
 
 import (
-	"optimusprime/common"
-	"optimusprime/log"
-	_ "github.com/go-sql-driver/mysql"
 	"database/sql"
 	"errors"
 	"sync"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/xuhn/optimusprime/common"
+	"github.com/xuhn/optimusprime/log"
 )
 
 const (

@@ -1,9 +1,10 @@
 package common
 
 import (
-	"optimusprime/log"
 	"net/http"
 	"runtime"
+
+	"github.com/xuhn/optimusprime/log"
 )
 
 var (

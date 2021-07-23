@@ -5,7 +5,6 @@
 package controller
 
 import (
-	"optimusprime/log"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -13,6 +12,8 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
+
+	"github.com/xuhn/optimusprime/log"
 
 	"github.com/revel/pathtree"
 )
